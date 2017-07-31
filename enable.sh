@@ -1,0 +1,8 @@
+psql -U postgres imunizeme -c "CREATE EXTENSION postgis;"
+psql -U postgres imunizeme -c "CREATE EXTENSION postgis_topology;"
+psql -U postgres imunizeme -c "CREATE EXTENSION postgis_sfcgal;"
+psql -U postgres imunizeme -c "CREATE EXTENSION fuzzystrmatch;"
+psql -U postgres imunizeme -c "CREATE EXTENSION address_standardizer;"
+psql -U postgres imunizeme -c "CREATE EXTENSION address_standardizer_data_us;"
+psql -U postgres imunizeme -c "CREATE EXTENSION postgis_tiger_geocoder;"
+psql -U postgres imunizeme -c "CREATE EXTENSION pgrouting;"

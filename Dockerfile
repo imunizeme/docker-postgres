@@ -10,3 +10,5 @@ RUN apt-get update \
     done \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
+RUN sh enable.sh
+
